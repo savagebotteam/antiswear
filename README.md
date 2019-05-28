@@ -1,8 +1,8 @@
 
    # How to Setup This Bot 
- # 1 ) #Open `server.js` Just Replcae 'Token' With Your Bot Token
- # 2 ) #Fork This Repo To Your Repo
- # 3 ) #Go To www.Glitch.com Signup With Github,Create New project With `hello-sqlite`
+ # 1 ) Open `server.js` Just Replcae 'Token' With Your Bot Token
+ # 2 ) Fork This Repo To Your Repo
+ # 3 ) Go To www.Glitch.com Signup With Github,Create New project With `hello-sqlite`
  # Click On `Tools` And Select Import From Git Repo
  # 4 ) Import Your Forked Repo ,After Cloning Copy Your Project EXAMPLE - `cuddly-potato`
  # 5 ) Open www.uptimerobot.com And Signup , select Create New Monitor -» HTTP(S) -» in Web address Replace Like - `https://(projectname).glitch.me` EXAMPLE - https://cuddly-potato.glitch.me And Create Monitor And Select Uptime Every 5 Minutes
