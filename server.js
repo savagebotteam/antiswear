@@ -14,7 +14,7 @@ bot.on("ready", async () => {
     `servers`,
           "p!help Help",
           "Prefix-p!",
-          "Made By 𝘗𝘖𝘞𝘌𝘙乡GZ#8605"
+          "Made By 𝘗𝘖𝘞𝘌𝘙乡GZ#0001"
         
         ]; 
      let ActivityType = [
@@ -46,6 +46,60 @@ fs.readdir("./commands/", (err, files) => {
   });
   
 });
+
+bot.on('message', message => {
+  if (message.content.startsWith("Fuq")) {
+        message.delete(1000);
+    
+    
+    message.channel.send("You Are tryin Say F***,No Swear !")
+  }
+}); 
+
+bot.on('message', message => {
+  if (message.content.startsWith("Bhenchod")) {
+        message.delete(1000);
+    
+    
+    message.channel.send("No swearing in This server!")
+  }
+}); 
+
+bot.on('message', message => {
+  if (message.content.startsWith("Madarchod")) {
+        message.delete(1000);
+    
+    
+    message.channel.send("No swearing in This server!")
+  }
+}); 
+
+bot.on('message', message => {
+  if (message.content.startsWith("B1tch")) {
+        message.delete(1000);
+    
+    
+    message.channel.send("This gonna Not work on me I now every abuse,BTW NO swearing !")
+  }
+}); 
+
+bot.on('message', message => {
+  if (message.content.startsWith("Louda")) {
+        message.delete(1000);
+    
+    
+    message.channel.send("No swearing in This server!")
+  }
+}); 
+
+bot.on('message', message => {
+  if (message.content.startsWith("Bitch")) {
+        message.delete(1000);
+    
+    
+    message.channel.send("No swearing in This server!")
+  }
+}); 
 
 bot.on('message', message => {
   if (message.content.startsWith("Fuck")) {
